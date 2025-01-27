@@ -1,0 +1,56 @@
+# [build-system]
+# requires = ["setuptools"]
+# build-backend = "setuptools.build_meta"
+
+[project]
+name = "PyPeUrlLoader"
+version = "0.0.1"
+dependencies = ["PyPeLoader"]
+authors = [
+    {name = "Maurice Lambert", email = "mauricelambert434@gmail.com"},
+]
+maintainers = [
+    {name = "Maurice Lambert", email = "mauricelambert434@gmail.com"},
+]
+description = 'This package uses PyPeLoader to load a PE program from a HTTP server (from an URL).'
+readme = {file = "README.md", content-type = "text/markdown"}
+# url = "https://github.com/mauricelambert/PyPeUrlLoader"
+# download-url = "https://mauricelambert.github.io/info/python/security/PyPeUrlLoader.pyz"
+classifiers = [
+    "Topic :: System",
+    "Topic :: Security",
+    "Environment :: Console",
+    "Topic :: System :: Shells",
+    "Natural Language :: English",
+    "Programming Language :: Python",
+    "Intended Audience :: Developers",
+    "Topic :: System :: System Shells",
+    "Programming Language :: Python :: 3.8",
+    'Operating System :: Microsoft :: Windows',
+    "Topic :: System :: Systems Administration",
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: System Administrators",
+    "License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)",
+]
+keywords = ['PeLoader', 'URL', 'LoadPeFromUrl', 'MemoryExecution', 'Fileless', 'FilelessExecution', 'HTTP', 'LoadPeFromHttp']
+license = {text = "GPL-3.0 License"}
+requires-python = ">=3.8"
+
+[project.scripts]
+PyPeUrlLoader = "PyPeUrlLoader:main"
+
+[project.urls]
+"Github" = "https://github.com/mauricelambert/PyPeUrlLoader"
+"Documentation" = "https://mauricelambert.github.io/info/python/security/PyPeUrlLoader.html"
+"Python Executable" = "https://mauricelambert.github.io/info/python/security/PyPeUrlLoader.pyz"
+"Windows Executable" = "https://mauricelambert.github.io/info/python/security/PyPeUrlLoader.exe"
+
+[tool.setuptools]
+include-package-data = true
+platforms = ['Windows']
+py-modules = ['PyPeUrlLoader']
+packages = []
+script-files = []
+
+[tool.setuptools.dynamic]
+readme = {file = ["README.md"], content-type = "text/markdown"}

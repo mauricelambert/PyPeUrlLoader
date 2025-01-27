@@ -1,0 +1,14 @@
+LICENSE.txt
+MANIFEST.in
+PyPeUrlLoader.py
+README.md
+pyproject.toml
+requirements.txt
+setup.cfg
+setup.py
+PyPeUrlLoader.egg-info/PKG-INFO
+PyPeUrlLoader.egg-info/SOURCES.txt
+PyPeUrlLoader.egg-info/dependency_links.txt
+PyPeUrlLoader.egg-info/entry_points.txt
+PyPeUrlLoader.egg-info/requires.txt
+PyPeUrlLoader.egg-info/top_level.txt
