@@ -13,6 +13,7 @@ This package require:
 
  - python3
  - python3 Standard Library
+ - PyPeLoader >= 1.0.0
 
 ## Installation
 
