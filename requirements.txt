@@ -1,1 +1,1 @@
-PyPeLoader
+PyPeLoader >= 1.0.0

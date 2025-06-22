@@ -4,8 +4,8 @@
 
 [project]
 name = "PyPeUrlLoader"
-version = "0.0.1"
-dependencies = ["PyPeLoader"]
+version = "1.0.0"
+dependencies = ["PyPeLoader >= 1"]
 authors = [
     {name = "Maurice Lambert", email = "mauricelambert434@gmail.com"},
 ]

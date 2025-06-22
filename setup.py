@@ -1,18 +1,18 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='PyPeUrlLoader',
-    version="0.0.1",
-    py_modules=['PyPeUrlLoader'],
+    name="PyPeUrlLoader",
+    version="1.0.0",
+    py_modules=["PyPeUrlLoader"],
     packages=find_packages(include=[]),
-    install_requires=['PyPeLoader'],
+    install_requires=["PyPeLoader"],
     scripts=[],
     author="Maurice Lambert",
     author_email="mauricelambert434@gmail.com",
     maintainer="Maurice Lambert",
     maintainer_email="mauricelambert434@gmail.com",
-    description='This package uses PyPeLoader to load a PE program from a HTTP server (from an URL).',
-    long_description=open('README.md').read(),
+    description="This package uses PyPeLoader to load a PE program from a HTTP server (from an URL).",
+    long_description=open("README.md").read(),
     long_description_content_type="text/markdown",
     url="https://github.com/mauricelambert/PyPeUrlLoader",
     project_urls={
@@ -33,19 +33,26 @@ setup(
         "Intended Audience :: Developers",
         "Topic :: System :: System Shells",
         "Programming Language :: Python :: 3.8",
-        'Operating System :: Microsoft :: Windows',
+        "Operating System :: Microsoft :: Windows",
         "Topic :: System :: Systems Administration",
         "Development Status :: 5 - Production/Stable",
         "Intended Audience :: System Administrators",
         "License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)",
     ],
-    keywords=['PeLoader', 'URL', 'LoadPeFromUrl', 'MemoryExecution', 'Fileless', 'FilelessExecution', 'HTTP', 'LoadPeFromHttp'],
-    platforms=['Windows'],
+    keywords=[
+        "PeLoader",
+        "URL",
+        "LoadPeFromUrl",
+        "MemoryExecution",
+        "Fileless",
+        "FilelessExecution",
+        "HTTP",
+        "LoadPeFromHttp",
+    ],
+    platforms=["Windows"],
     license="GPL-3.0 License",
-    entry_points = {
-        'console_scripts': [
-            'PyPeUrlLoader = PyPeUrlLoader:main'
-        ],
+    entry_points={
+        "console_scripts": ["PyPeUrlLoader = PyPeUrlLoader:main"],
     },
-    python_requires='>=3.8',
+    python_requires=">=3.8",
 )

