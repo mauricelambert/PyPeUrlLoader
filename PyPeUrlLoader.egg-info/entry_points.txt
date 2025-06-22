@@ -1,2 +1,0 @@
-[console_scripts]
-PyPeUrlLoader = PyPeUrlLoader:main
